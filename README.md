@@ -1,0 +1,1 @@
+This repository demonstrates a common issue with Firebase's onAuthStateChanged function: the listener not properly unsubscribing when the component unmounts.  The `bug.js` file shows the problematic code, resulting in potential memory leaks.  The solution (`bugSolution.js`) provides a corrected version ensuring proper cleanup.
